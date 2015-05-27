@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <ImageView android:id="@+id/iv_Image" android:layout_width="100dp" android:layout_height="100dp"
+        android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/dp_px22"
+        android:contentDescription="@string/app_common_title"
+        android:src="@drawable/camera_default" />
+
+    <LinearLayout android:id="@+id/rl_Image" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/dp_px16" android:layout_toRightOf="@+id/iv_Image"
+        android:baselineAligned="false" android:gravity="center" android:orientation="horizontal">
+
+        <CheckBox android:id="@+id/cb_Image_sample" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginRight="5dp"
+            android:background="@drawable/cb_selected" android:button="@null"
+            android:checked="true" />
+
+        <TextView android:id="@+id/tv_Image_sample" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="@string/add_img_sample"
+            android:textColor="@color/text_gray_dark" />
+
+        <CheckBox android:id="@+id/cb_Image_common" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp" android:background="@drawable/cb_no_selected"
+            android:button="@null" android:checked="false" />
+
+        <TextView android:id="@+id/tv_Image_common" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="@string/add_img_common"
+            android:textColor="@color/text_gray_dark" />
+    </LinearLayout>
+
+    <EditText android:id="@+id/et_Image" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_alignBottom="@+id/iv_Image"
+        android:layout_alignParentRight="true" android:layout_below="@+id/rl_Image"
+        android:layout_toRightOf="@+id/iv_Image" android:background="@drawable/feedback_content_bg"
+        android:ems="10" android:gravity="top" android:hint="@string/add_img_hint"
+        android:textColorHint="@android:color/darker_gray" android:textSize="14dp" />
+
+</RelativeLayout>

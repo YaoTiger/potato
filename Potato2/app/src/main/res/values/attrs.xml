@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+
+    <!--
+    format
+    reference 资源id 
+    color  颜色
+    boolean 布尔
+    dimension 尺寸
+    folat 浮点
+    integer 整形
+    string 字符串
+    fraction 百分数
+    enum 枚举
+    flag 位 或 运算
+
+
+
+
+
+    -->
+
+    <declare-styleable name="MyDownView">
+        <attr name="backgroud" format="reference" />
+    </declare-styleable>
+    <!-- 自定义Button 封装选择器 -->
+    <declare-styleable name="ButtonView">
+        <attr name="defaultImage" format="reference"></attr>
+        <attr name="clickImage" format="reference"></attr>
+        <attr name="selectImage" format="reference"></attr>
+        <attr name="defaultText" format="reference"></attr>
+        <attr name="clickText" format="reference"></attr>
+        <attr name="selectText" format="reference"></attr>
+    </declare-styleable>
+    <declare-styleable name="TitleView">
+        <attr name="titleName" format="string"></attr>
+        <attr name="backImage" format="reference"></attr>
+        <attr name="settingImage" format="reference"></attr>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="featured_service_item_name">
+        <item>街道办服务</item>
+        <item>小区安防</item>
+        <item>邻里互助</item>
+        <item>物业规范</item>
+        <item>业主委员会</item>
+        <item>物业风采</item>
+        <item>访客通行</item>
+        <item>送水</item>
+    </string-array>
+
+    <string-array name="rescue_item_content">
+        <item>开启即可关联至110</item>
+        <item>开启即可关联至120</item>
+    </string-array>
+    <string-array name="emergency_setting_item_title">
+        <item>如果您希望遇到紧急情况可通知到警方</item>
+        <item>如果您希望身体不舒服的时候可通知到医院</item>
+    </string-array>
+    <!--
+    <integer-array name="item_icon">
+        <item>@drawable/item_1</item>
+        <item>@drawable/item_2</item>
+        <item>@drawable/item_3</item>
+        <item>@drawable/item_4</item>
+        <item>@drawable/item_5</item>
+        <item>@drawable/item_6</item>
+        <item>@drawable/item_7</item>
+        <item>@drawable/item_more</item>
+    </integer-array>
+    
+    <drawable name="item_1">@drawable/item_1</drawable>
+    <drawable name="item_2">@drawable/item_2</drawable>
+    <drawable name="item_3">@drawable/item_3</drawable>
+    <drawable name="item_4">@drawable/item_4</drawable>
+    <drawable name="item_5">@drawable/item_5</drawable>
+    <drawable name="item_6">@drawable/item_6</drawable>
+    <drawable name="item_7">@drawable/item_7</drawable>
+    <drawable name="item_more">@drawable/item_more</drawable>
+    -->
+
+
+</resources>

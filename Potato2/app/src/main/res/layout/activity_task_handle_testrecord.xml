@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical">
+
+    <com.seable.potato.ui.view.View_TitleBar
+        android:id="@+id/TitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:titleName="@string/task_center_test_record" />
+
+    <GridView
+        android:id="@+id/gv_test_record"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_btn_top"
+        android:layout_below="@+id/TitleBar"
+        android:layout_marginLeft="@dimen/dp_px16"
+        android:layout_marginRight="@dimen/dp_px16"
+        android:layout_marginTop="@dimen/dp_px16"
+        android:cacheColorHint="#00000000"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:focusable="false"
+        android:gravity="center"
+        android:listSelector="@drawable/none_selector"
+        android:numColumns="2"
+        android:scrollbars="none"
+        android:smoothScrollbar="true"></GridView>
+
+    <LinearLayout
+        android:id="@+id/ll_btn_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_btn"
+        android:layout_marginTop="@dimen/dp_px16"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn_task_record_area"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/dp_px10"
+            android:layout_marginRight="@dimen/dp_px16"
+            android:layout_weight="1"
+            android:background="@drawable/btn_green_bg"
+            android:text="@string/task_center_test_record_area"
+            android:textColor="@color/text_white"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dp_px16"
+        android:layout_marginTop="@dimen/dp_px16"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_task_record_preview"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/dp_px16"
+            android:layout_marginRight="@dimen/dp_px10"
+            android:layout_weight="1"
+            android:background="@drawable/btn_yellow_bg"
+            android:text="@string/task_center_test_record_preview"
+            android:textColor="@color/text_white"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btn_task_record_ok"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/dp_px10"
+            android:layout_marginRight="@dimen/dp_px16"
+            android:layout_weight="1"
+            android:background="@drawable/btn_red_bg"
+            android:text="@string/task_center_test_record_submit"
+            android:textColor="@color/text_white"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+</RelativeLayout>

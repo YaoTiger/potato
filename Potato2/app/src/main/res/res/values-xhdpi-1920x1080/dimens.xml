@@ -1,0 +1,116 @@
+<resources>
+
+    <!--  Default screen margins, per the Android Design guidelines.
+     <dimen name="activity_horizontal_margin">16dp</dimen>
+     <dimen name="activity_vertical_margin">16dp</dimen>
+     <dimen name = "txt_20">20dp</dimen>
+         <dimen name = "txt_32">32dp</dimen>
+
+     <dimen name = "txt_18">18dp</dimen>
+         <dimen name = "txt_16">16dp</dimen>
+             <dimen name = "txt_14">14dp</dimen>
+                             组件左边距
+
+                         <dimen name = "item_marginLeft">10dp</dimen>
+
+                 周围外边距
+     <dimen name="margin">5dp</dimen>
+     <dimen name="margin2">15dp</dimen>
+
+
+     <dimen name="dp_px6">2dp</dimen>
+     <dimen name="dp_px8">3dp</dimen>
+     <dimen name="dp_px10">3dp</dimen>
+     <dimen name="dp_px12">4dp</dimen>
+     <dimen name="dp_px14">5dp</dimen>
+     <dimen name="dp_px15">5dp</dimen>
+     <dimen name="dp_px16">5dp</dimen>
+     <dimen name="dp_px17">6dp</dimen>
+     <dimen name="dp_px18TO19">6dp</dimen>
+     <dimen name="dp_px20">7dp</dimen>
+     <dimen name="dp_px22">7dp</dimen>
+     <dimen name="dp_px22TO23">8dp</dimen>
+     <dimen name="dp_px24">8dp</dimen>
+     <dimen name="dp_px25">8dp</dimen>
+     <dimen name="dp_px26">9dp</dimen>
+     <dimen name="dp_px28">9dp</dimen>
+     <dimen name="dp_px30">10dp</dimen>
+     <dimen name="dp_px33">11dp</dimen>
+     <dimen name="dp_px34">11dp</dimen>
+     <dimen name="dp_px35">12dp</dimen>
+     <dimen name="dp_px36">12dp</dimen>
+     <dimen name="dp_px37">12dp</dimen>
+     <dimen name="dp_px38">15dp</dimen>
+     <dimen name="dp_px44">15dp</dimen>
+     <dimen name="dp_px45TO46">15dp</dimen>
+     <dimen name="dp_px48">16dp</dimen>
+     <dimen name="dp_px50">17dp</dimen>
+     <dimen name="dp_px52">17dp</dimen>
+     <dimen name="dp_px55">18dp</dimen>
+     <dimen name="dp_px57">19dp</dimen>
+     <dimen name="dp_px60">20dp</dimen>
+     <dimen name="dp_px64">21dp</dimen>
+     <dimen name="dp_px67">22dp</dimen>
+     <dimen name="dp_px70">23dp</dimen>
+     <dimen name="dp_px74">25dp</dimen>
+     <dimen name="dp_px75">25dp</dimen>
+     <dimen name="dp_px76">25dp</dimen>
+     <dimen name="dp_px78">26dp</dimen>
+     <dimen name="dp_px80">27dp</dimen>
+     <dimen name="dp_px85">28dp</dimen>
+     <dimen name="dp_px90">30dp</dimen>
+     <dimen name="dp_px95">32dp</dimen>
+     <dimen name="dp_px96">32dp</dimen>
+     <dimen name="dp_px98">33dp</dimen>
+     <dimen name="dp_px100">33dp</dimen>
+     <dimen name="dp_px104">35dp</dimen>
+     <dimen name="dp_px105">35dp</dimen>
+     <dimen name="dp_px106">35dp</dimen>
+     <dimen name="dp_px110">37dp</dimen>
+     <dimen name="dp_px114">38dp</dimen>
+     <dimen name="dp_px115">38dp</dimen>
+     <dimen name="dp_px120">40dp</dimen>
+     <dimen name="dp_px125">42dp</dimen>
+     <dimen name="dp_px134">45dp</dimen>
+     <dimen name="dp_px136">45dp</dimen>
+     <dimen name="dp_px137">46dp</dimen>
+     <dimen name="dp_px148">49dp</dimen>
+     <dimen name="dp_px150">50dp</dimen>
+     <dimen name="dp_px152">51dp</dimen>
+     <dimen name="dp_px164">55dp</dimen>
+     <dimen name="dp_px170TO176">57dp</dimen>
+     <dimen name="dp_px192">64dp</dimen>
+     <dimen name="dp_px196">65dp</dimen>
+     <dimen name="dp_px211">70dp</dimen>
+     <dimen name="dp_px213">71dp</dimen>
+     <dimen name="dp_px220">73dp</dimen>
+     <dimen name="dp_px232TO238">77dp</dimen>
+     <dimen name="dp_px251">84dp</dimen>
+     <dimen name="dp_px277">92dp</dimen>
+     <dimen name="dp_px290">97dp</dimen>
+     <dimen name="dp_px355">118dp</dimen>
+     <dimen name="dp_px377">126dp</dimen>
+     <dimen name="dp_px382">127dp</dimen>
+     <dimen name="dp_px397">132dp</dimen>
+     <dimen name="dp_px415">138dp</dimen>
+     <dimen name="dp_px432">144dp</dimen>
+     <dimen name="dp_px442">147dp</dimen>
+     <dimen name="dp_px498">166dp</dimen>
+     <dimen name="dp_px740">247dp</dimen>
+
+
+
+
+     <dimen name="sp_px19.5">13sp</dimen>
+     <dimen name="sp_px20">13sp</dimen>
+     <dimen name="sp_px21">14sp</dimen>
+     <dimen name="sp_px22TO23">15sp</dimen>
+     <dimen name="sp_px24">16sp</dimen>
+     <dimen name="sp_px27">18sp</dimen>
+     <dimen name="sp_px29">19sp</dimen>
+     二维码
+     <dimen name="bottom_tab_padding_drawable">2.0dip</dimen>
+     <dimen name="bottom_tab_padding_up">5.0dip</dimen>
+     <dimen name="bottom_tab_font_size">10.0dip</dimen>
+  -->
+</resources>

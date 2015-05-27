@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ShowView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:gravity="center_horizontal">
+
+    <com.seable.potato.ui.view.View_TitleBar
+        android:id="@+id/TitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:titleName="@string/task_center_test_record_add" />
+
+    <com.seable.potato.ui.view.View_ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TitleBar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/dp_px16">
+
+            <com.seable.potato.ui.view.View_NoScrollGridView
+                android:id="@+id/lv_check"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="@dimen/dp_px16"
+                android:cacheColorHint="#00000000"
+                android:divider="@color/gray6"
+                android:dividerHeight="1dp"
+                android:headerDividersEnabled="true"
+                android:listSelector="@drawable/none_selector"
+                android:numColumns="2"
+                android:scrollbarThumbVertical="@drawable/scroller_bar_bg"
+                android:scrollbars="vertical"></com.seable.potato.ui.view.View_NoScrollGridView>
+
+            <RelativeLayout
+                android:id="@+id/view_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lv_check">
+
+                <include layout="@layout/view_image" />
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/et_check"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_below="@+id/view_image"
+                android:layout_marginTop="@dimen/dp_px16"
+                android:layout_marginBottom="@dimen/dp_px16"
+                android:background="@drawable/feedback_content_bg"
+                android:ems="10"
+                android:gravity="top"
+                android:hint="@string/add_info_hint"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="14dp" />
+
+
+            <LinearLayout
+                android:id="@+id/ll_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_check"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_check_add"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="@dimen/dp_px10"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_green_bg"
+                    android:gravity="center"
+                    android:text="@string/task_center_test_record_add_photo"
+                    android:textColor="@color/text_white"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/btn_check_save"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="@dimen/dp_px10"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_red_bg"
+                    android:gravity="center"
+                    android:text="@string/task_center_test_record_save"
+                    android:textColor="@color/text_white"
+                    android:textSize="18dp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.seable.potato.ui.view.View_ScrollView>
+
+</RelativeLayout>

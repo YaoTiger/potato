@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <!-- 记录轨迹 时间轴的item-->
+    <FrameLayout
+        android:layout_width="30dp"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="20dp">
+
+        <!-- 时间轴的线 -->
+        <TextView
+            android:id="@+id/timeline_line_tv"
+            android:layout_width="2dp"
+            android:layout_height="fill_parent"
+            android:background="@color/green"
+            android:layout_gravity="center" />
+
+        <!-- 时间轴的点  可以通过判断类型 设置不同的点-->
+        <ImageView
+            android:id="@+id/timeline_point_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_time_line_point_g"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <!-- 时间 -->
+        <TextView
+            android:id="@+id/timeline_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_gray_light"
+            android:textSize="@dimen/dp_px30"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:text="2014-12-17 13:15 工程运行部电梯维" />
+
+        <!-- 内容 -->
+        <TextView
+            android:id="@+id/timeline_content_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/text_gray_dark"
+            android:textSize="@dimen/dp_px30"
+            android:text="按每周规定2次保养保养1次" />
+
+    </LinearLayout>
+
+</LinearLayout>

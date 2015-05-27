@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my="http://schemas.android.com/apk/res/com.seable.potato"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bg_gray" android:orientation="vertical">
+
+    <com.seable.potato.ui.view.View_TitleBar android:id="@+id/TitleBar"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        my:titleName="@string/main_info" />
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="fill_parent"
+        android:padding="15dp">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:background="@drawable/line_gray_normal" android:orientation="vertical"
+            android:padding="2dp">
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="50dp"
+                android:background="@color/white" android:gravity="center_vertical">
+
+                <TextView android:id="@+id/textView1" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/dp_px15" android:text="@string/about_app"
+                    android:textColor="@color/text_gray_dark" android:textSize="15dp" />
+
+                <TextView android:id="@+id/tv_my_setting_about_appname"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:gravity="center_vertical" android:paddingRight="@dimen/dp_px15"
+                    android:textColor="@color/text_gray_dark" android:textSize="15dp" />
+            </LinearLayout>
+
+            <TextView android:id="@+id/textView3" android:layout_width="fill_parent"
+                android:layout_height="0.5dp" android:background="@color/gray6" />
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="50dp"
+                android:background="@color/white" android:gravity="center_vertical">
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:gravity="center_vertical" android:paddingLeft="@dimen/dp_px15"
+                    android:text="@string/about_version" android:textColor="@color/text_gray_dark"
+                    android:textSize="15dp" />
+
+                <TextView android:id="@+id/tv_my_setting_about_appversion"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:gravity="center_vertical" android:paddingRight="@dimen/dp_px15"
+                    android:textColor="@color/text_gray_dark" android:textSize="15dp" />
+
+                <TextView android:id="@+id/tv_my_setting_about_update"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:gravity="center" android:paddingRight="@dimen/dp_px15"
+                    android:text="@string/verisonupdate" android:textColor="@color/white"
+                    android:visibility="gone" android:background="@drawable/btn_green_bg"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <TextView android:layout_width="fill_parent" android:layout_height="0.5dp"
+                android:background="@color/gray6" />
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:background="@color/white" android:gravity="center_vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:gravity="center_vertical" android:paddingLeft="@dimen/dp_px15"
+                    android:text="@string/about_company" android:textColor="@color/text_gray_dark"
+                    android:textSize="15dp" />
+                <TextView android:id="@+id/tv_my_setting_about_company"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:gravity="center_vertical" android:minHeight="50dp"
+                    android:paddingRight="@dimen/dp_px15" android:textColor="@color/text_gray"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <TextView android:layout_width="fill_parent" android:layout_height="0.5dp"
+                android:background="@color/gray6" />
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="50dp"
+                android:background="@color/white" android:gravity="center_vertical">
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:gravity="center_vertical" android:paddingLeft="@dimen/dp_px15"
+                    android:text="@string/about_tel" android:textColor="@color/text_gray_dark"
+                    android:textSize="15dp" />
+
+                <TextView android:id="@+id/tv_my_setting_about_tel"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:autoLink="phone" android:gravity="center_vertical"
+                    android:paddingRight="@dimen/dp_px15" android:textColorLink="@color/text_blue"
+                    android:textSize="15dp" />
+            </LinearLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="0.5dp"
+                android:background="@color/gray6" />
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="50dp"
+                android:background="@color/white" android:gravity="center_vertical">
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:gravity="center_vertical" android:paddingLeft="@dimen/dp_px15"
+                    android:text="@string/about_email" android:textColor="@color/text_gray_dark"
+                    android:textSize="15dp" />
+
+                <TextView android:id="@+id/tv_my_setting_about_email"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:autoLink="email" android:gravity="center_vertical"
+                    android:paddingRight="@dimen/dp_px15" android:textColorLink="@color/text_blue"
+                    android:textSize="15dp" />
+            </LinearLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="0.5dp"
+                android:background="@color/gray6" />
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="50dp"
+                android:background="@color/white" android:gravity="center_vertical">
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:gravity="center_vertical" android:paddingLeft="@dimen/dp_px15"
+                    android:text="@string/about_web" android:textColor="@color/text_gray_dark"
+                    android:textSize="15dp" />
+
+                <TextView android:id="@+id/tv_my_setting_about_web"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:autoLink="web" android:gravity="center_vertical"
+                    android:paddingRight="@dimen/dp_px15" android:textColorLink="@color/text_blue"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+
+            <TextView android:layout_width="fill_parent" android:layout_height="0.5dp"
+                android:background="@color/gray6" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:background="@color/white" android:gravity="center_vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:gravity="center_vertical" android:paddingLeft="@dimen/dp_px15"
+                    android:text="@string/about_address" android:textColor="@color/text_gray_dark"
+                    android:textSize="15dp" />
+                <TextView android:id="@+id/tv_my_setting_about_address"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:gravity="center_vertical" android:minHeight="50dp"
+                    android:paddingRight="@dimen/dp_px15" android:textColor="@color/text_gray"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+
+            <TextView android:layout_width="fill_parent" android:layout_height="0.5dp"
+                android:background="@color/gray6" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:background="@color/white" android:gravity="center_vertical">
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:gravity="center_vertical" android:paddingLeft="@dimen/dp_px15"
+                    android:text="@string/about_summary" android:textColor="@color/text_gray_dark"
+                    android:textSize="15dp" />
+
+                <TextView android:id="@+id/tv_my_setting_about_summary"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:gravity="center_vertical" android:minHeight="50dp"
+                    android:paddingRight="@dimen/dp_px15" android:textColor="@color/text_gray"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

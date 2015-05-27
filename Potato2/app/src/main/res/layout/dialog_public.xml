@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_public"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_public_titel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="@color/bg_red"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/bg_red"
+        android:contentDescription="@string/app_name" />
+
+    <ListView
+        android:id="@+id/lv_public"
+        style="@style/myScrollerBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/bg_red"
+        android:dividerHeight="1dp"
+        android:cacheColorHint="#00000000"
+        android:listSelector="@drawable/none_selector"
+        android:scrollbars="@null"></ListView>
+
+</LinearLayout>

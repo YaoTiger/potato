@@ -1,0 +1,112 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="txt_20">20dp</dimen>
+    <dimen name="txt_32">32dp</dimen>
+
+    <dimen name="txt_18">18dp</dimen>
+    <dimen name="txt_16">16dp</dimen>
+    <dimen name="txt_14">14dp</dimen>
+    <!-- 组件左边距 -->
+
+    <dimen name="item_marginLeft">10dp</dimen>
+
+    <!-- 周围外边距 -->
+    <dimen name="margin">5dp</dimen>
+    <dimen name="margin2">15dp</dimen>
+
+
+    <dimen name="dp_px6">4dp</dimen>
+    <dimen name="dp_px8">5dp</dimen>
+    <dimen name="dp_px10">7dp</dimen>
+    <dimen name="dp_px12">8dp</dimen>
+    <dimen name="dp_px14">9dp</dimen>
+    <dimen name="dp_px15">10dp</dimen>
+    <dimen name="dp_px16">11dp</dimen>
+    <dimen name="dp_px18TO19">12dp</dimen>
+    <dimen name="dp_px20">13dp</dimen>
+    <dimen name="dp_px22">14dp</dimen>
+    <dimen name="dp_px22TO23">15dp</dimen>
+    <dimen name="dp_px24">16dp</dimen>
+    <dimen name="dp_px25">16dp</dimen>
+    <dimen name="dp_px26">17dp</dimen>
+    <dimen name="dp_px28">18dp</dimen>
+    <dimen name="dp_px30">20dp</dimen>
+    <dimen name="dp_px33">22dp</dimen>
+    <dimen name="dp_px34">23dp</dimen>
+    <dimen name="dp_px35">24dp</dimen>
+    <dimen name="dp_px36">23dp</dimen>
+    <dimen name="dp_px37">25dp</dimen>
+    <dimen name="dp_px38">25dp</dimen>
+    <dimen name="dp_px44">29dp</dimen>
+    <dimen name="dp_px45TO46">30dp</dimen>
+    <dimen name="dp_px48">31dp</dimen>
+    <dimen name="dp_px50">33dp</dimen>
+    <dimen name="dp_px52">34dp</dimen>
+    <dimen name="dp_px55">37dp</dimen>
+    <dimen name="dp_px57">38dp</dimen>
+    <dimen name="dp_px60">40dp</dimen>
+    <dimen name="dp_px64">43dp</dimen>
+    <dimen name="dp_px67">45dp</dimen>
+    <dimen name="dp_px70">46dp</dimen>
+    <dimen name="dp_px74">48dp</dimen>
+    <dimen name="dp_px75">50dp</dimen>
+    <dimen name="dp_px76">49dp</dimen>
+    <dimen name="dp_px78">51dp</dimen>
+    <dimen name="dp_px80">53dp</dimen>
+    <dimen name="dp_px85">57dp</dimen>
+    <dimen name="dp_px90">60dp</dimen>
+    <dimen name="dp_px95">62dp</dimen>
+    <dimen name="dp_px96">63dp</dimen>
+    <dimen name="dp_px98">64dp</dimen>
+    <dimen name="dp_px100">67dp</dimen>
+    <dimen name="dp_px104">68dp</dimen>
+    <dimen name="dp_px105">70dp</dimen>
+    <dimen name="dp_px106">69dp</dimen>
+    <dimen name="dp_px110">73dp</dimen>
+    <dimen name="dp_px114">74dp</dimen>
+    <dimen name="dp_px115">76dp</dimen>
+    <dimen name="dp_px120">78dp</dimen>
+    <dimen name="dp_px125">81dp</dimen>
+    <dimen name="dp_px134">87dp</dimen>
+    <dimen name="dp_px136">88dp</dimen>
+    <dimen name="dp_px137">91dp</dimen>
+    <dimen name="dp_px148">96dp</dimen>
+    <dimen name="dp_px150">97dp</dimen>
+    <dimen name="dp_px152">99dp</dimen>
+    <dimen name="dp_px164">107dp</dimen>
+    <dimen name="dp_px170TO176">114dp</dimen>
+    <dimen name="dp_px192">125dp</dimen>
+    <dimen name="dp_px196">127dp</dimen>
+    <dimen name="dp_px211">137dp</dimen>
+    <dimen name="dp_px213">138dp</dimen>
+    <dimen name="dp_px220">147dp</dimen>
+    <dimen name="dp_px232TO238">155dp</dimen>
+    <dimen name="dp_px251">163dp</dimen>
+    <dimen name="dp_px277">185dp</dimen>
+    <dimen name="dp_px290">189dp</dimen>
+    <dimen name="dp_px355">178dp</dimen>
+    <dimen name="dp_px377">245dp</dimen>
+    <dimen name="dp_px382">248dp</dimen>
+    <dimen name="dp_px397">258dp</dimen>
+    <dimen name="dp_px415">260dp</dimen>
+    <dimen name="dp_px432">281dp</dimen>
+    <dimen name="dp_px442">287dp</dimen>
+    <dimen name="dp_px498">332dp</dimen>
+    <dimen name="dp_px740">490dp</dimen>
+
+
+    <dimen name="sp_px19.5">13sp</dimen>
+    <dimen name="sp_px20">13sp</dimen>
+    <dimen name="sp_px21">14sp</dimen>
+    <dimen name="sp_px22TO23">15sp</dimen>
+    <dimen name="sp_px24">16sp</dimen>
+    <dimen name="sp_px27">18sp</dimen>
+    <dimen name="sp_px29">19sp</dimen>
+    <!-- 二维码 -->
+    <dimen name="bottom_tab_padding_drawable">2.0dip</dimen>
+    <dimen name="bottom_tab_padding_up">5.0dip</dimen>
+    <dimen name="bottom_tab_font_size">10.0dip</dimen>
+</resources>

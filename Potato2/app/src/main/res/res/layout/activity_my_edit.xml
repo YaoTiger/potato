@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my="http://schemas.android.com/apk/res/com.seable.potato"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:scrollbars="@null">
+
+    <LinearLayout android:id="@+id/ShowView" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="vertical">
+
+        <com.seable.potato.ui.view.View_TitleBar android:id="@+id/TitleBar"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            my:titleName="@string/my_edit" />
+
+        <RelativeLayout android:id="@+id/ll_showview" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="vertical"
+            android:padding="15dp">
+
+            <LinearLayout android:id="@+id/ll_top" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_alignParentTop="true"
+                android:background="@drawable/line_bg_gray_normal" android:orientation="vertical"
+                android:padding="2dp">
+
+                <!-- android:background="@color/list_item_bg" -->
+
+                <RelativeLayout android:id="@+id/ll_myEdit_image"
+                    android:layout_width="match_parent" android:layout_height="50dp"
+                    android:gravity="center_vertical" android:paddingLeft="@dimen/dp_px16"
+                    android:paddingRight="@dimen/dp_px16">
+
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:layout_centerVertical="true"
+                        android:layout_gravity="center" android:text="@string/edit_img"
+                        android:textColor="@color/text_gray_dark" android:textSize="14dp" />
+
+                    <com.seable.potato.ui.view.View_RoundImageView android:id="@+id/iv_myEdit"
+                        android:layout_width="45dp" android:layout_height="45dp"
+                        android:layout_centerVertical="true" android:layout_gravity="center"
+                        android:layout_marginRight="10dp" android:layout_toLeftOf="@+id/imageView1"
+                        android:scaleType="fitXY" />
+
+                    <ImageView android:id="@+id/imageView1" android:layout_width="6dp"
+                        android:layout_height="11dp" android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true" android:layout_marginRight="20dp"
+                        android:background="@drawable/arrow_right"
+                        android:contentDescription="@string/app_name" />
+                </RelativeLayout>
+
+                <TextView android:layout_width="fill_parent" android:layout_height="1dp"
+                    android:background="@color/gray6" />
+
+                <RelativeLayout android:id="@+id/ll_myEdit_name" android:layout_width="match_parent"
+                    android:layout_height="50dp" android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/dp_px16" android:paddingRight="@dimen/dp_px16">
+
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:layout_centerVertical="true"
+                        android:layout_gravity="center" android:text="@string/edit_name"
+                        android:textColor="@color/text_gray_dark" android:textSize="14dp" />
+
+                    <TextView android:id="@+id/tv_myEdit_name" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true" android:layout_gravity="center"
+                        android:layout_marginLeft="15dp" android:layout_marginRight="25dp"
+                        android:text="@string/edit_name" android:textColor="@color/text_gray_light"
+                        android:textSize="14dp" />
+                </RelativeLayout>
+
+                <TextView android:layout_width="fill_parent" android:layout_height="1dp"
+                    android:background="@color/gray6" />
+
+                <RelativeLayout android:id="@+id/ll_myEdit_duty" android:layout_width="match_parent"
+                    android:layout_height="50dp" android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/dp_px16" android:paddingRight="@dimen/dp_px16">
+
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:layout_centerVertical="true"
+                        android:layout_gravity="center" android:text="@string/edit_duty"
+                        android:textColor="@color/text_gray_dark" android:textSize="14dp" />
+
+                    <TextView android:id="@+id/tv_myEdit_duty" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true" android:layout_gravity="center"
+                        android:layout_marginLeft="15dp" android:layout_marginRight="25dp"
+                        android:maxLength="20" android:singleLine="true"
+                        android:text="@string/edit_duty" android:textColor="@color/text_gray_light"
+                        android:textSize="14dp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/ll_motify_password" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_below="@+id/ll_top"
+                android:padding="@dimen/dp_px16"
+                android:background="@drawable/line_bg_gray_normal_sharp"
+                android:layout_marginTop="@dimen/dp_px22" android:orientation="vertical">
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_gravity="center" android:text="@string/edit_pass"
+                    android:textColor="@color/text_gray" android:paddingBottom="5dp"
+                    android:textSize="16dp" />
+
+                <EditText android:id="@+id/pwd_ori" android:layout_width="match_parent"
+                    android:layout_height="45dp" android:background="@drawable/feedback_content_bg"
+                    android:hint="@string/edit_hint_pass_old" android:imeOptions="actionNext"
+                    android:inputType="textPassword" android:maxLength="18"
+                    android:paddingLeft="@dimen/dp_px15" android:singleLine="true"
+                    android:textColor="@color/text_gray"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textCursorDrawable="@null" android:textSize="15dp" />
+
+                <EditText android:id="@+id/pwd_new" android:layout_width="match_parent"
+                    android:layout_height="45dp" android:layout_marginTop="@dimen/dp_px16"
+                    android:background="@drawable/feedback_content_bg"
+                    android:hint="@string/edit_hint_pass_new" android:imeOptions="actionNext"
+                    android:inputType="textPassword" android:maxLength="18"
+                    android:paddingLeft="@dimen/dp_px15" android:singleLine="true"
+                    android:textColor="@color/text_gray"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textCursorDrawable="@null" android:textSize="15dp" />
+
+                <EditText android:id="@+id/pwd_repeat" android:layout_width="match_parent"
+                    android:layout_height="45dp" android:layout_marginTop="@dimen/dp_px16"
+                    android:background="@drawable/feedback_content_bg"
+                    android:hint="@string/edit_hint_pass_twice" android:imeOptions="actionDone"
+                    android:inputType="textPassword" android:maxLength="18"
+                    android:paddingLeft="@dimen/dp_px15" android:singleLine="true"
+                    android:textColor="@color/text_gray"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textCursorDrawable="@null" android:textSize="15dp" />
+
+                <Button android:id="@+id/pwd_submit" android:layout_width="fill_parent"
+                    android:layout_height="50dp" android:layout_marginTop="@dimen/dp_px22"
+                    android:background="@drawable/btn_green_bg" android:text="@string/edit_ok"
+                    android:textColor="@color/text_white" android:textSize="18dp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

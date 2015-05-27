@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="10dp">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_weight="1" android:orientation="vertical">
+
+        <ListView android:id="@+id/listView1" android:layout_width="match_parent"
+            android:layout_height="fill_parent" android:cacheColorHint="#00000000"
+            android:divider="@null" android:dividerHeight="10dp"
+            android:headerDividersEnabled="true" android:listSelector="@drawable/none_selector"
+            android:numColumns="2" android:scrollbarThumbVertical="@drawable/scroller_bar_bg"
+            android:scrollbars="vertical"></ListView>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" android:orientation="vertical">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="80dp"
+            android:background="@drawable/line_gray_normal" android:padding="10dp">
+
+            <TextView android:id="@+id/textView4" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="备注：" />
+
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent"
+                android:layout_marginLeft="6dp">
+
+                <EditText android:id="@+id/editText2" android:layout_width="wrap_content"
+                    android:layout_height="fill_parent" android:layout_weight="1"
+                    android:background="@color/white" android:ems="10" android:gravity="top|left"
+                    android:text=" " />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button android:id="@+id/btn_handle_haevest_add" android:layout_width="0dp"
+                android:layout_height="50dp" android:layout_marginRight="5dp"
+                android:layout_marginTop="15dp" android:layout_weight="1"
+                android:background="@drawable/btn_green_bg" android:text="添加照片"
+                android:textColor="@color/white" android:textSize="18dp" />
+
+            <Button android:id="@+id/btn_handle_haevest_ok" android:layout_width="0dp"
+                android:layout_height="50dp" android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp" android:layout_weight="1"
+                android:background="@drawable/btn_red_bg" android:text="保存数据"
+                android:textColor="@color/white" android:textSize="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_red">#fe3d3d</color>
+    <color name="bg_red_dark">#f92f25</color>
+    <color name="bg_yellow">#ffd132</color>
+    <color name="bg_blue">#36c3de</color>
+    <color name="bg_blue_dark">#559dff</color>
+    <color name="bg_task_count2">#ff853c</color>
+    <color name="bg_task_count3">#ffd33c</color>
+    <color name="bg_task_count4">#7dc019</color>
+    <color name="bg_task_count5">#0097ce</color>
+
+    <color name="bg_green">#3cce8d</color>
+    <!-- 通用背景颜色 -->
+    <color name="bg_gray">#f9f9f9</color>
+    <!-- 通用背景颜色 -->
+    <color name="bg_gray1">#d2d2d2</color>
+    <!-- 通用线条绿色 -->
+    <color name="line_green">#8fca00</color>
+    <!-- 通用线条浅灰色 -->
+    <color name="line_gray_light">#e0e0e0</color>
+    <!-- 通用线条灰色 -->
+    <color name="line_gray">#c9c9c9</color>
+    <!-- 通用字体未选中灰色 -->
+    <color name="text_gray_notselecte">#797979</color>
+    <!-- 通用字体黑色  -->
+    <color name="text_black">#353535</color>
+    <!-- 标题上的文字白色 -->
+    <color name="text_white">#ffffff</color>
+    <!-- 标题上的文字黄色 -->
+    <color name="text_yellow">#feb33d</color>
+    <!-- 通用字体深灰色 -->
+    <color name="text_gray_dark">#595757</color>
+    <!-- 通用字体灰色 -->
+    <color name="text_gray">#aaaaaa</color>
+    <!-- 通用字体浅灰色 -->
+    <color name="text_gray_light">#b5b5b6</color>
+    <color name="text_blue">#00b4ff</color>
+    <color name="text_green">#8fca00</color>
+    <!-- 按钮绿色正常 -->
+    <color name="btn_yellow_normol">#ffd132</color>
+    <!-- 按钮绿色按下 -->
+    <color name="btn_yellow_pressed">#ffc11f</color>
+    <!-- 按钮绿色正常 -->
+    <color name="btn_green_normol">#87c530</color>
+    <!-- 按钮绿色按下 -->
+    <color name="btn_green_pressed">#65b01d</color>
+
+
+    <color name="gray_selected">#f0eeee</color>
+    <color name="bg_transparent">#b0000000</color>
+    <color name="black">#f9f9f9</color>
+
+
+    <color name="btn_login_normal">#007086</color>
+    <color name="btn_login_pressed">#303744</color>
+    <color name="btn_logout_normal">#d33f3f</color>
+    <color name="btn_logout_pressed">#DA5A4D</color>
+    <color name="btn_register_normal">#2dafa3</color>
+    <color name="btn_register_pressed">#4ebcd3</color>
+    <color name="common_bottom_bar_normal_bg">#2d2f31</color>
+    <color name="common_bottom_bar_selected_bg">#161718</color>
+    <color name="common_botton_bar_blue">#2ea7e0</color>
+    <color name="common_bg">#fcfcfc</color>
+    <color name="btn_pressed_green_solid">#B6DA53</color>
+    <color name="btn_white_normal">#f7f8f8</color>
+    <color name="btn_white_pressed">#b5b5b6</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+    <color name="btn_gray_pressed_status">#b5b5b6</color>
+    <color name="btn_gray_pressed">#666667</color>
+    <color name="btn_blue_normal">#1e90ff</color>
+    <color name="btn_blue_pressed">#0066FF</color>
+    <color name="orange">#FFA500</color>
+    <color name="gray6">#cccccc</color>
+    <color name="red">#ff0000</color>
+    <color name="red_dark">#b80000</color>
+    <color name="white">#ffffff</color>
+    <color name="setting_textblack">#333333</color>
+    <color name="yellow">#f9dd5d</color>
+
+    <!-- green -->
+    <color name="green">#b1d84a</color>
+    <color name="green_n">#8fc900</color>
+    <color name="green_p">#7eb101</color>
+    <!-- 紧急救援列表 -->
+    <color name="date">#888888</color>
+    <!-- 上传图片背景色 -->
+    <color name="none_color">#00000000</color>
+    <color name="bule_overlay">#660D92DD</color>
+
+    <!-- 开始扫码用到的样式 -->
+    <color name="carame_sure_layout">#4e4e4e</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color>
+    <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <!-- 四角框颜色 -->
+    <color name="viewfinder_frame">#fe3d3d</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+
+</resources>

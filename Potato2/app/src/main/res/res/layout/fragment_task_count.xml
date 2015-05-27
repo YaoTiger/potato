@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my="http://schemas.android.com/apk/res/com.seable.potato"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bg_gray">
+
+    <com.seable.potato.ui.view.View_TitleBar android:id="@+id/TitleBar"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" my:titleName="@string/main_03task_count" />
+
+    <ListView android:id="@+id/lv_task_count" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_below="@+id/TitleBar"
+        android:layout_marginTop="@dimen/dp_px22" android:layout_marginLeft="@dimen/dp_px16"
+        android:layout_marginRight="@dimen/dp_px16"
+        android:background="@drawable/line_bg_gray_normal_sharp_1dp"
+        android:cacheColorHint="#00000000" android:divider="@color/gray6"
+        android:dividerHeight="1dp" android:fadingEdge="none"
+        android:listSelector="@drawable/none_selector" android:scrollbars="none"
+        android:scrollingCache="false"></ListView>
+
+</RelativeLayout>

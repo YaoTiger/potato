@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my="http://schemas.android.com/apk/res/com.seable.potato" android:id="@+id/ShowView"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bg_gray" android:orientation="vertical">
+
+    <com.seable.potato.ui.view.View_TitleBar android:id="@+id/TitleBar"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        my:titleName="@string/main_04my" />
+
+
+    <RelativeLayout android:id="@+id/rl" android:layout_below="@+id/TitleBar"
+        android:layout_width="match_parent" android:layout_height="144dp"
+        android:background="@color/bg_red_dark" android:paddingTop="16dp">
+
+        <com.seable.potato.ui.view.View_RoundImageView android:id="@+id/iv_my_image"
+            android:layout_width="70dp" android:layout_height="70dp"
+            android:layout_centerHorizontal="true" android:scaleType="fitXY"
+            android:src="@drawable/default_avatar" />
+
+        <TextView android:id="@+id/tv_my_username" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_below="@+id/iv_my_image"
+            android:layout_centerHorizontal="true" android:gravity="center_vertical"
+            android:paddingTop="5dp" android:text="用户名" android:textColor="@color/text_white"
+            android:textSize="14dp" />
+
+        <TextView android:id="@+id/tv_my_info" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_below="@+id/tv_my_username"
+            android:layout_centerHorizontal="true" android:gravity="center_vertical"
+            android:paddingTop="5dp" android:singleLine="true" android:text="用户信息"
+            android:textColor="@color/text_white" android:textSize="14dp" />
+    </RelativeLayout>
+
+    <ListView android:id="@+id/lv_my" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:layout_below="@+id/rl"
+        android:layout_marginLeft="@dimen/dp_px16" android:layout_marginRight="@dimen/dp_px16"
+        android:layout_marginTop="@dimen/dp_px22" android:cacheColorHint="#00000000"
+        android:divider="@null" android:dividerHeight="0dp" android:fadingEdge="none"
+        android:listSelector="@drawable/none_selector" android:scrollbars="none"
+        android:scrollingCache="false"></ListView>
+
+</RelativeLayout>

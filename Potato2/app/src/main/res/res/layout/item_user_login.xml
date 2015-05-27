@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal" android:background="@drawable/line_bg_gray_sharp"
+    android:padding="15.0dip">
+    <TextView android:id="@+id/account_name" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_weight="1" android:textSize="16sp"
+        android:text="account name" />
+    <ImageView android:id="@+id/delete_account" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:src="@drawable/delete_account"
+        android:clickable="true" />
+</LinearLayout>

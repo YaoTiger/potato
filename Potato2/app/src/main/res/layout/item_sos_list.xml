@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_item_bulletin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/dp_px22">
+
+    <TextView
+        android:id="@+id/iv_item_sos"
+        android:layout_width="@dimen/dp_px134"
+        android:layout_height="@dimen/dp_px134"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="未解决"
+        android:textSize="@dimen/dp_px36"
+        android:background="@drawable/round_bg_red"
+        android:layout_marginRight="@dimen/dp_px22" />
+
+    <TextView
+        android:id="@+id/tv_item_sos_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/iv_item_sos"
+        android:gravity="left|center_vertical"
+        android:text="松花路9号"
+        android:textColor="@color/text_gray_dark"
+        android:textSize="@dimen/dp_px36" />
+
+    <TextView
+        android:id="@+id/tv_item_sos_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_item_sos_add"
+        android:layout_toRightOf="@+id/iv_item_sos"
+        android:gravity="left|center_vertical"
+        android:text="王宝强"
+        android:textColor="@color/text_gray"
+        android:textSize="@dimen/dp_px30" />
+
+    <TextView
+        android:id="@+id/tv_item_sos_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_item_sos_name"
+        android:layout_marginLeft="@dimen/dp_px8"
+        android:layout_toRightOf="@+id/iv_item_sos"
+        android:text="2015-03-02 8:00"
+        android:textColor="@color/text_gray_light"
+        android:textSize="@dimen/dp_px30" />
+
+</RelativeLayout>
